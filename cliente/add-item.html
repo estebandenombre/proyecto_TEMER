@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicar Objeto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Publica un Objeto</h1>
+    </header>
+    <main>
+        <form id="addItemForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="description">Descripción:</label>
+            <textarea id="description" name="description"></textarea>
+            <label for="category">Categoría:</label>
+            <select id="category" name="category">
+                <option value="ropa">Ropa</option>
+                <option value="tecnologia">Tecnología</option>
+                <option value="hogar">Hogar</option>
+            </select>
+            <label for="image">Imagen:</label>
+            <input type="file" id="image" name="image">
+            <button type="submit">Publicar</button>
+        </form>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

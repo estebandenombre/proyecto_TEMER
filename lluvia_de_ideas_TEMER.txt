@@ -1,0 +1,43 @@
+Queremos hacer un Marketplace en el que los usuarios puedan subir objetos que ya no usan o quieren para que otros usuarios puedan conocer de ellos y llevárselos de forma gratuita. Hemos pensado en la siguiente estructuración de las tablas de la base de datos, además de la siguiente organización en cuanto a tablas HTML. Necesitamos de usar un servidor Node,js, como nos recomiendas integrar todo esto. Además, danos ejemplos de sistemas de Bases de Datos para usar.
+
+*** BASE DE DATOS:
+
+-> PERFIL DE USUARIO
+id
+Nombre y Apellidos
+correo
+contraseña sha256
+numero tlf
+dirección
+Presentación
+
+-> PUBLICACIONES
+id
+Titulo
+Descripción
+Ubicación 
+Categoria
+DISPONIBLE?
+RESEÑA?
+
+-> Categorías
+Id
+Nombre
+Icono
+
+-> USUARIO-PUBLICACIONES
+Id
+IdUsuario
+IdPublicacion
+
+*** PÁGINAS HTML:
+
+INICIO : LOGIN/REGISTRO de sesión - PANEL - listar objetos (FILTROS) (icono para que te muestre datos de contacto)
+                                          - publicar productos  
+                                          - perfil de usuario - VES TU PERFIL
+
+En panel.html hacer que se muestren anuncios random y que vayan scrolleando de izquierda a derecha
+			                               
+
+
+

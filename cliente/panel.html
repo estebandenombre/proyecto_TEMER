@@ -1,0 +1,72 @@
+<!-- panel.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel - Marketplace</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Estilos para el menú de navegación */
+        nav {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #0fb81d;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+
+        /* Estilos para el botón de perfil */
+        .profile-button {
+            position: absolute;
+            top: 6px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #ccc;
+            background-image: url('path/to/profile-image.jpg'); /* Ruta a la foto de perfil */
+            background-size: cover;
+            background-position: center;
+            border: 2px solid #fff;
+            cursor: pointer;
+        }
+
+        /* Estilos generales */
+        header {
+            position: relative;
+        }
+
+        main {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tu Panel</h1>
+        <a href="profile.html" class="profile-button"></a>
+    </header>
+    <main>
+        <h2>Bienvenido, [Usuario]</h2>
+        <p>Comienza a explorar objetos o publica uno nuevo.</p>
+    </main>
+    <nav>
+        <a href="items.html">Explorar Objetos</a>
+        <a href="add-item.html">Publicar Objeto</a>
+    </nav>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
